@@ -39,7 +39,7 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     mart:
-      +materialized: tablet 
+      +materialized: table
       finance:
-        schema: 
+        schema: finance
       
