@@ -1,4 +1,3 @@
-{{ config(materialized="finance_days") }}
 
 SELECT
     date_date
